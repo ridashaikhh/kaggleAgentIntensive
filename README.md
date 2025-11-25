@@ -1,9 +1,11 @@
 # Kaggle Agent Intensive - AI Dream Analyzer
 ## A modular multi-agent system for interpreting, understanding, and remembering dreams.
+#### Notebook Link: 
 
+### Overview:
 This project contains the core logic for the AI Dream Analyzer Agent, a multi-agent system designed to help users understand and reflect upon their dreams. The system ingests free-text dreams, extracts symbolic and emotional content, generates interpretations, creates embeddings for long-term memory, stores results in a vector database, and supports memory-aware Q&A. Built with Gemini models, it shows how modular agents can work together to deliver psychological insight in a scalable way.
 
-### Problem Statement
+### Problem Statement:
 
 - Dream interpretation is confusing, subjective, and easily forgotten. People wake up with:
 
@@ -19,7 +21,7 @@ This project contains the core logic for the AI Dream Analyzer Agent, a multi-ag
 
 - Dreams contain psychological insights, but most people have no tool to analyze them.
 
-### Solution Statement
+### Solution Statement:
 
 This system automates dream analysis through structured agents.
 Agents break the pipeline into clear components:
@@ -42,7 +44,7 @@ Agents break the pipeline into clear components:
 
 This reduces mental effort while offering consistent, psychologically meaningful interpretations. Embeddings and vector search allow users to explore patterns across months of dreams, turning raw journaling into an intelligent, reflective experience.
 
-### Architecture Overview
+### Architecture Overview:
 
 The AI Dream Analyzer Agent is a multi-agent pipeline that:
 
@@ -62,7 +64,7 @@ The AI Dream Analyzer Agent is a multi-agent pipeline that:
 
 - Supports memory-aware question answering
 
-### Agents Included
+### Agents Included:
 
 **Dream Ingest Agent** – Cleans and normalizes the raw dream text.
 
@@ -82,7 +84,7 @@ The AI Dream Analyzer Agent is a multi-agent pipeline that:
 
 **Chat Agent** – Answers user questions using retrieved memories and produces insight-rich responses.
 
-### Technologies Used
+### Technologies Used:
 
 - Gemini 2.5 Flash (reasoning)
 
@@ -96,11 +98,11 @@ The AI Dream Analyzer Agent is a multi-agent pipeline that:
 
 Everything works together through one orchestrated pipeline.
 
-### Conclusion
+### Conclusion:
 
 The AI Dream Analyzer Agent demonstrates the power of modular multi-agent systems. By dividing the workflow into specialized agents, the system produces structured, meaningful dream insights. Raw dreams are transformed into symbolic, emotional, and interpretive layers, all preserved in long-term memory for future reflection. The architecture is reusable, extensible, and capable of growing into more advanced personal-insight tools.
 
-### Future Improvements
+### Future Improvements:
 
 - Group dreams by recurring symbols
 
