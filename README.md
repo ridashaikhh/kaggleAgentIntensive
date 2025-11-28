@@ -1,6 +1,6 @@
 # Kaggle Agent Intensive - AI Dream Analyzer
 ## A modular multi-agent system for interpreting, understanding, and remembering dreams.
-#### Notebook Link: kaggle.com/competitions/agents-intensive-capstone-project/writeups/new-writeup-1763657321824
+#### Kaggle Notebook Link: kaggle.com/competitions/agents-intensive-capstone-project/writeups/new-writeup-1763657321824
 
 ### Overview:
 This project contains the core logic for the AI Dream Analyzer Agent, a multi-agent system designed to help users understand and reflect upon their dreams. The system ingests free-text dreams, extracts symbolic and emotional content, generates interpretations, creates embeddings for long-term memory, stores results in a vector database, and supports memory-aware Q&A. Built with Gemini models, it shows how modular agents can work together to deliver psychological insight in a scalable way.
